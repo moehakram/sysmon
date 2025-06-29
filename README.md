@@ -123,8 +123,10 @@ $ dart bin/sysmon network
 RX: 2.3GiB (1.2Mip) | TX: 856.7MiB (892.1Kip)
 ```
 
-## Breaking Down The Network Output:
 
+**Breaking Down The Network Output:**
+
+```
 RX: 2.3GiB (1.2Mip) | TX: 856.7MiB (892.1Kip)
  ↓      ↓       ↓        ↓       ↓        ↓
  │      │       │        │       │        └─ 892,100 packets sent
@@ -134,6 +136,7 @@ RX: 2.3GiB (1.2Mip) | TX: 856.7MiB (892.1Kip)
  │      └─ 2.3 Gibibytes received (≈ 2,469 MB)
  └─ Receive (Download/Incoming)
 
+```
 ## Technical Details
 
 ### CPU Usage Calculation
